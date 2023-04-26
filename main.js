@@ -19,3 +19,6 @@ function axiosQuotes() {
 }
 
 axiosQuotes();
+
+document.querySelector("#refresh").addEventListener("click", axiosQuotes);
+
